@@ -1031,7 +1031,7 @@
         const letterCard = document.createElement('div');
         letterCard.className = 'collection-letter';
         letterCard.innerHTML = `
-          <div class="letter-card-title">To ___ , Who Will Never Read This</div>
+          <div class="letter-card-title">What is your favorite thing to say?</div>
           <div class="letter-card-text">${state.letterText.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</div>
         `;
         grid.appendChild(letterCard);
@@ -1108,7 +1108,7 @@
           ctx.fillStyle = '#999999';
           ctx.font = 'italic 10px Poppins, sans-serif';
           ctx.textAlign = 'center';
-          ctx.fillText('To ___ , Who Will Never Read This', totalW / 2, letterY + 20);
+          ctx.fillText('Favorite Thing to Say', totalW / 2, letterY + 20);
           
           ctx.fillStyle = '#FFFFFF';
           ctx.font = '11px Poppins, sans-serif';
